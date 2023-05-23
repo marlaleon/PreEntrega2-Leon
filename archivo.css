@@ -1,0 +1,858 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: linear-gradient(#fff, #F7B9D3);
+    height: auto;
+}
+
+@font-face {
+    font-family: Engraver;
+    src: url(Fonts/Engravers\ Old\ English\ Normal.ttf);
+}
+@font-face {
+    font-family: Tungsten;
+    src: url(Fonts/Tungsten-SemiBold.ttf);
+}
+@font-face {
+    font-family: Sudesta ;
+    src: url(Fonts/Sudestada.ttf);
+}
+
+@font-face {
+    font-family: Carla;
+    src: url(Fonts/CarlaSansLight.ttf);
+}
+
+@font-face {
+    font-family: FromWhere;
+    src: url(Fonts/FromWhereYouAre.ttf);
+}
+
+@font-face {
+    font-family: soulmate;
+    src: url(Fonts/Soulmate.ttf);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+    font-family:Raleway; src:url(Fonts/Raleway-VariableFont_wght.ttf);
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    width: 100%;
+    background:rgba(247, 185, 211, .8)
+}
+nav {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+nav a{
+      text-decoration:none;
+      color:inherit;
+      font: size 20px;
+      font-family: Raleway; src: url(Fonts/Raleway-VariableFont_wght.ttf);
+      }
+
+nav a:active {
+    font-weight: bold;
+}
+
+            
+nav li{
+      display:inline-block;
+      width:200px;
+      height:40px;
+      padding:5px;
+      background-color:#FFFBFD;
+      text-align:center;
+      color:#000;
+      position:relative;
+      z-index: 1;
+      justify-items: center;
+}
+            
+nav li:hover{
+      background-color: #E6E7E8;
+      color:#000;
+      }
+
+nav ul {
+    padding-left: 0%;
+}
+nav li>ul{
+      display:none;
+
+      }
+
+nav li:hover>ul{
+      display:block;
+      position:absolute;
+      top:40px;
+      bottom: 40px;
+      right: 0px;
+
+}
+
+
+.mainphoto {
+    width: 100%;
+}
+
+
+h2 {
+    font-family: Raleway;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.reptitle {
+    font-size: 90px;
+    font-family:Engraver;
+    margin-top: 0px;
+}
+
+.text {
+    font-size: 25px;
+    padding: 30px;
+    margin-top: 10px;
+    font-family: raleway;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.text2 {
+    font-size: 30px;
+    padding: 40px;
+    margin-top: 0px;
+    margin-right: 800px;
+    text-align: center;
+    font-family: raleway;
+}
+
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 50px;
+    font-family: raleway;
+}
+
+
+#repplay {
+    text-align: left;
+}
+
+.ListenAt {
+    font-size: 40px;
+    text-align: center;
+    font-family: Raleway;
+}
+
+.playlists {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.debuttitle {
+    font-family: satisfaction;
+    font-size: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #6ce1ff;
+}
+
+.fearlesstitle {
+    font-family: carla;
+    font-size: 80px;
+    margin-top: 30px;
+    color: #e0ce75;
+}
+
+.t1989title {
+    font-family: fromwhere;
+    font-size: 80px;
+    margin-top: 30px;
+    color: #b8bfe2;
+}
+
+.speaktitle {
+    font-family: sudesta;
+    font-size: 90px;
+    margin-top: 0px;
+    color: #8e3b72;
+}
+
+.redtitle {
+    font-family: tungsten;
+    font-size: 90px;
+    margin-top: 0px;
+    color: #9c1b15;
+    font-style: italic;
+}
+
+.lovertitle {
+    font-family: soulmate;
+    font-size: 70px;
+    margin-top: 0px;
+    color: #ff83c1;
+    font-style: italic;
+    padding: 0;
+}
+
+.textonormal {
+    text-align: center;
+    font-size: 20px;
+    margin: 5%;
+    font-family: Raleway;
+    line-height: 35px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.circularderecho {
+    width: 320px;
+    border-radius: 50%;
+    margin-left: 250px;
+    margin-top: 80px;
+}
+
+.circularizquierdo {
+    width: 320px;
+    border-radius: 50%;
+    margin-right: 250px;
+    margin-top: 100px;
+}
+
+.blogizq {
+    display: flex;
+}
+
+.blog {
+    display: inline-block;
+}
+
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+    margin: 100px 40px 0px 100px;
+    font-family: raleway;
+}
+
+.textoizquierdo {
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 750px;
+    font-size: 20px; 
+    font-family: raleway;
+    line-height: 30px; 
+}
+
+h5 {
+    text-align: center;
+    font-size: 30px;
+    font-family: raleway;
+    margin-bottom:  0px;
+    margin-top: 0px;
+}
+
+
+
+.lista1 {
+    font-size: 20px;
+    font-family: raleway;
+    margin-top: 400px;
+    min-width: 1000px;
+    box-shadow: 0 0 20px #fff;
+    align-content: center;
+    margin:0 auto;
+}
+
+.lista1 thead tr {
+    font-size: 30px;
+    text-align: center;
+}
+
+.lista1 td {
+    text-align: center;
+}
+
+.lista1 th, 
+.lista1 td {
+    padding: 20px 15px;
+}
+
+
+.form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+  
+  .form button {
+    padding: 0.5em 1em;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+    font-family: raleway;
+    margin-top: 40px;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+.tipo {
+    font-family: raleway;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.videoentrada {
+    height: 400px;
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.titulo1 {
+    font-family: raleway;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5% 5% 5% 5%;
+}
+
+
+/* INICIO  GRID CONTAINER 1 WW AWARD WINNING*/
+    .gridcontainer {
+        background-color:#F7B9D3;
+        padding: 5%;
+        display: grid;
+        grid-template-areas:
+        "award1 award2 award3 titlelist"
+        "award1 award2 award3 listofawards";
+        grid-template-columns: 1fr 1fr 1fr 2fr;
+        grid-template-rows: 1fr 2fr;
+        column-gap: 5%;
+        row-gap: 10%;
+        justify-items: center;
+        align-items: center;
+        margin-bottom: 10%;
+    }
+
+    .award1 {
+        grid-area: award1;
+        border-radius: 50px;
+    }
+
+    .award2 {
+        grid-area: award2;
+        border-radius: 50px;
+    }
+
+    .award3 {
+        grid-area: award3;
+        border-radius: 50px;
+    }
+
+    .titlelist {
+        grid-area: titlelist;
+        font-family: raleway;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .listofawards {
+        grid-area: listofawards;
+        font-family: raleway;
+        text-align: center;
+        font-size: 20px;
+        list-style: none;
+    }
+
+    #lists {
+        list-style: none;
+    }
+/* FIN GRID CONTAINER WW award winner section*/
+
+/* INICIO GRID CONTAINER 3 (VIDEO LAS ERAS) */
+    .gridcontainer3 {
+       height: 400px;
+        display: grid;
+        grid-template-areas:
+        "textovideo video";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        margin: 5% 10% 5% 10%;
+        align-items: center;
+        justify-items: center;
+        column-gap: 3%;
+    }
+
+    .textovideo {
+        grid-area: textovideo;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-family: raleway;
+        font-size: 20px;
+        padding-bottom: 5%;
+    }
+    .video {
+        
+        grid-area: video;
+        align-self: center;
+        overflow: visible;
+        
+       
+    }
+
+/* FIN GRID CONTAINER 3 (VIDEO LAS ERAS) */
+
+
+/* INICIO GRID CONTAINER 4 (COLLAGES) */
+.gridcontainer4 {
+    display: grid;
+    grid-template-areas: 
+    "collage topsongs"
+    "collage textotopsongs";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    align-items: center;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.collage {
+    grid-area: collage;
+    border-radius: 50px;
+}
+.topsongs {
+    grid-area: topsongs;
+    font-family: raleway;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.textotopsongs {
+    grid-area: textotopsongs;
+    font-family: raleway;
+    font-size: 35px;
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+}
+/* FIN GRID CONTAINER 4 (COLLAGES) */
+
+/* MAX 600PX */
+
+@media (max-width: 600px){
+    .gridcontainer {
+        height: 100%;
+        display: grid;
+        grid-template-areas:
+        "titlelist"
+        "award1" 
+        "award2"
+        "award3"
+        "listofawards";
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 2fr 2fr 2fr 0.5fr;
+        row-gap: 1%;
+        margin-left: 5%;
+        margin-right: 5%;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .titlelist {
+        grid-area: titlelist;
+        font-family: raleway;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .listofawards {
+        grid-area: listofawards;
+        font-family: raleway;
+        text-align: center;
+        font-size: 20px;
+        list-style: circle;
+        padding-top: 5%;
+    }
+    #lists {
+        list-style:circle;
+        align-items: center;
+    }
+
+    .videoentrada {
+        display: inline-block;
+    }
+
+    .titulo1 {
+        font-size: 25px;
+        padding-top: 10%;
+    }
+
+    .textonormal {
+        font-size: 18px;
+    }
+}
+
+
+/* karma block */
+
+.bloquekarma {
+    height: 400px;
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+
+/* INICIO CONTAINER 2 KARMA */
+    .gridcontainer2 {
+        display: grid;
+        height: 500px;
+        grid-template-areas:
+        "jamoftheweek jamoftheweek"
+        "descjamoftheweek descjamoftheweek"
+        "look karmatitle"
+        "look karmatext"
+        "look karmatext"
+        "look karmatext";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 2fr;
+        column-gap: 3%;
+        row-gap: 3%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        justify-items: center;
+        align-items: center; 
+    }
+
+    .jamoftheweek {
+        grid-area: jamoftheweek;
+        font-family: raleway;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .descjamoftheweek {
+        grid-area: descjamoftheweek;
+        font-family: raleway;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .look {
+        grid-area: look;
+        align-items: center;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .karmatitle {
+        grid-area: karmatitle;
+        font-family: raleway;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+
+    }
+
+    .karmatext {
+        grid-area: karmatext;
+        font-family: raleway;
+        font-size: 20px;
+        text-align: center;
+    }
+
+@media (max-width:600px) {
+    .gridcontainer2 {
+        height: 0px;
+        display: grid;
+        grid-template-areas:
+        "jamoftheweek"
+        "descjamoftheweek"
+        "karmatitle"
+        "karmatext"
+        "look";
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 2fr 1fr;
+    }
+
+    .jamoftheweek {
+        grid-area: jamoftheweek;
+        font-family: raleway;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .descjamoftheweek {
+        grid-area: descjamoftheweek;
+        font-family: raleway;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .look {
+        grid-area: look;
+        align-items: center;
+        text-align: center;
+        margin-left: 10px;
+        margin-bottom: 10%;
+    }
+
+    .karmatitle {
+        grid-area: karmatitle;
+        font-family: raleway;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+
+    }
+
+    .karmatext {
+        grid-area: karmatext;
+        font-family: raleway;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    
+}
+/* FINCONTAINER 2 KARMA */
+
+@media (min-width:600px) and (max-width:1000px) {
+
+    .gridcontainer {
+        display: grid;
+        grid-template-areas:
+        "titlelist titlelist titlelist"
+        "award1 award2 award3"
+        "listofawards listofawards listofawards";
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.5fr 1fr 1fr;
+        column-gap: 5px;
+        row-gap: 5px;
+        margin-left: 15px;
+        margin-right: 15px;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .titlelist {
+        grid-area: titlelist;
+        font-family: raleway;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    .listofawards {
+        grid-area: listofawards;
+        font-family: raleway;
+        text-align: center;
+        font-size: 30px;
+        list-style: circle;
+        padding-top: 5%;
+    }
+    #lists {
+        list-style:circle;
+        align-items: center;
+    }
+
+    .videoentrada {
+        display: inline-block;
+    }
+
+    .titulo1 {
+        font-size: 40px;
+        padding-top: 10%;
+        font-weight: bold;
+    }
+
+    .textonormal {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .gridcontainer2 {
+        height: 1000px;
+        display: grid;
+        grid-template-areas:
+        "jamoftheweek"
+        "descjamoftheweek"
+        "karmatitle"
+        "karmatext"
+        "look";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .jamoftheweek {
+        grid-area: jamoftheweek;
+        font-family: raleway;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .descjamoftheweek {
+        grid-area: descjamoftheweek;
+        font-family: raleway;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .look {
+        grid-area: look;
+        align-items: center;
+        text-align: center;
+        margin-left: 10px;
+        margin-bottom: 10%;
+    }
+
+    .karmatitle {
+        grid-area: karmatitle;
+        font-family: raleway;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+
+    }
+
+    .karmatext {
+        grid-area: karmatext;
+        font-family: raleway;
+        font-size: 30px;
+        text-align: center;
+    }
+
+
+}
+
+@media (min-width:600px) and (max-width:1000px) {
+    .gridcontainer3 {
+        display: grid;
+        height: 600px;
+        grid-template-areas: 
+        "textovideo"
+        "video";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+    }
+
+    .textovideo {
+        grid-area: textovideo;
+        font-size: 20px;
+    }
+
+    .video {
+        grid-area: video;
+    }
+}
+
+@media (max-width:600px) {
+    .gridcontainer3 {
+        display: grid;
+        height: 450px;
+        grid-template-areas: 
+        "textovideo"
+        "video";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+    }
+
+    .textovideo {
+        grid-area: textovideo;
+        font-size: 15px;
+    }
+
+    .video {
+        grid-area: video;
+    }
+
+    .gridcontainer4 {
+        height: 700px;
+        display: grid;
+        grid-template-areas: 
+        "topsongs"
+        "textotopsongs"
+        "collage";
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 1fr 3fr;
+    }
+
+    .topsongs {
+        grid-area: topsongs;
+        font-size: 30px;
+    }
+
+    .textotopsongs {
+        grid-area: textotopsongs;
+        font-size: 20px;
+        list-style: circle;
+    }
+
+    .collage {
+        grid-area: collage;
+    }
+
+    .playlists {
+        height: 1200px;
+        display: grid;
+        grid-template-areas: 
+        "appleplay"
+        "spotifyplay";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 5%;
+        justify-items: center;
+    }
+    .appleplay {
+        grid-area: appleplay;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .spotifyplay {
+        grid-area: spotifyplay;
+    }
+}
